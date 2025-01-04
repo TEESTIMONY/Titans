@@ -560,6 +560,47 @@ body, html {
     font-size: 1rem; /* Ensure the highlight remains prominent */
   }
 
+  .launch-info {
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    padding: 50px 20px;
+    color: #fff;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    font-family: Arial, sans-serif;
+  }
+  
+  .launch-info h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #fff; 
+  }
+  
+  .launch-info p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+  }
+  
+  .dexscreener-btn {
+    background-color: #e5e3b0; /* Gold Button */
+    color: black;
+    letter-spacing: 2px;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .dexscreener-btn:hover {
+    background-color: #e6d9a8;
+  }
+  
+
 
 /* Responsive Design for Mobile View */
 @media (max-width: 768px) {
