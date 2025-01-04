@@ -11,3 +11,9 @@ menuIcon.onclick = () => {
         menu.style.maxHeight = '0px';
     }
 };
+
+
+document.getElementById("menu-icon").addEventListener("click", function () {
+    const navLinks = document.querySelector(".nav-links-mobile");
+    navLinks.classList.toggle("show");
+});
