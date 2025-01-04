@@ -14,6 +14,7 @@ body, html {
     justify-content: space-between;
     align-items: center;
     background-color:#f8ffe8; /* Dark green background */
+    backdrop-filter: blur(5px);
     height: 5vh;
     margin: 30px 80px 80px;
     margin-bottom: 0;
@@ -22,6 +23,7 @@ body, html {
     border: 5px solid black;
     border-bottom: 8px solid black;
     color: #ffffe0; /* Light cream color */
+
 }
 
 .navbar-left .logo {
@@ -131,6 +133,14 @@ body, html {
 
   /* Hero Section */
 .hero-section {
+    background: linear-gradient(
+      rgba(20, 76, 116, 0.3),
+      rgba(20, 76, 116, 0.6)
+  ),
+    url('img5.png'); /* Use the same background image from the first frame */
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
     
     position: relative;
     color: #fff;
